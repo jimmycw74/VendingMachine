@@ -104,11 +104,12 @@ C:\Jimmy\Luxembourg\dennmeyer\VM\VendingMachine\VendingMachine.Tests\VendingMach
 C:\Jimmy\Luxembourg\dennmeyer\VM\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\obj\Debug\net6.0\VendingMachine.Tests.genruntimeconfig.cache
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\testhost.exe
+C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\testhost.dll
+C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
-C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\testhost.dll
-C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\products.csv
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\VendingMachine.Tests.deps.json
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\VendingMachine.Tests.runtimeconfig.json
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\VendingMachine.Tests.dll

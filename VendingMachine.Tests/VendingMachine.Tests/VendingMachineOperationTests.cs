@@ -40,54 +40,50 @@ namespace VendingMachine.Tests
             Assert.Equal(totalAdded, _operation.getBalance());
         }
         [Fact]
-        public void shouldSelectProduct()
-        {
-            // Act
-            int ProductId = 0;
-            // Assert
-            Assert.Equal("a", "b");
-        }
-        [Fact]
         public void shouldRejectInvalidProducts()
         {
-            // Act
             // Assert
-            Assert.Equal("a", "b");
+            Assert.Equal("**product invalid**", _operation.processCommand("SELECT 999"));
         }
         [Fact]
         public void shouldRejectPurchaseWithNotEnoughMoney()
         {
             // Act
             // Assert
-            Assert.Equal("a", "b");
+            Assert.StartsWith("Please deposit more", _operation.processCommand("SELECT 1"));
         }
         [Fact]
         public void shouldDispenseProduct()
         {
             // Act
+            _operation.processCommand("ENTER 1");
             // Assert
-            Assert.Equal("a", "b");
+            Assert.EndsWith("THANK YOU", _operation.processCommand("SELECT 1"));
         }
         [Fact]
         public void shouldReturnChange()
         {
             // Act
+            _operation.processCommand("ENTER 1");
             // Assert
-            Assert.Equal("a", "b");
+            Assert.Equal("Returned money: 1", _operation.processCommand("RETURN COINS"));
         }
         [Fact]
         public void shouldReturnTotalAmount()
         {
             // Act
+            _operation.processCommand("ENTER 1");
+            _operation.processCommand("ENTER 1");
+            _operation.processCommand("ENTER 1");
             // Assert
-            Assert.Equal("a", "b");
+            Assert.Equal("Returned money: 3", _operation.processCommand("RETURN COINS"));
         }
         [Fact]
         public void shouldRejectSoldOutProducts()
         {
             // Act
             // Assert
-            Assert.Equal("a", "b");
+            Assert.StartsWith("**product sold out**", _operation.processCommand("SELECT 14"));
         }
 
     }

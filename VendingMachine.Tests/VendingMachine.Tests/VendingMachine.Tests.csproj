@@ -25,4 +25,10 @@
     <ProjectReference Include="..\..\VendingMachine\VendingMachine.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="products.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

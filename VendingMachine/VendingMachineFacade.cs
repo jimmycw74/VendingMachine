@@ -77,24 +77,24 @@ namespace VendingMachine
                         {
                             if (_wallet.GetBalance() >= product.ProductPrice)
                             {
-                                Console.WriteLine("**product dispensed**");
+                                result = "**product dispensed**\n";
                                 product.ProductStock -= 1;
                                 _wallet.removeAmount(product.ProductPrice);
-                                Console.Write(_wallet.dispenseChange());
-                                result = "THANK YOU";
+                                result += _wallet.dispenseChange() + '\n';
+                                result += "THANK YOU";
 
                             }
                             else
                             {
-                                Console.WriteLine("Please deposit more " + (product.ProductPrice - _wallet.GetBalance()).ToString("0.00"));
+                                result = "Please deposit more " + (product.ProductPrice - _wallet.GetBalance()).ToString("0.00");
                             }
                         }
                         else
                         {
-                            Console.WriteLine("**product sold out**");
+                            result = "**product sold out**\n";
                             if (_wallet.GetBalance() >= 0)
                             {
-                                result = "Amount entered: " + _wallet.GetBalance().ToString("0.00");
+                                result += "Amount entered: " + _wallet.GetBalance().ToString("0.00");
                             }
                         }
                     }
@@ -113,7 +113,7 @@ namespace VendingMachine
             }
             else if (c.Equals("RETURN COINS"))
             {
-                Console.WriteLine("Returned money: " + _wallet.GetBalance());
+                result = "Returned money: " + _wallet.GetBalance();
                 _wallet.removeAmount(_wallet.GetBalance());
             }
             else if (c.Equals("QUIT"))
