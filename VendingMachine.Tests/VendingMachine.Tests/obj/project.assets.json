@@ -6533,11 +6533,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Jimmy\\Luxembourg\\dennmeyer\\VM\\VendingMachine\\VendingMachine.Tests\\VendingMachine.Tests\\VendingMachine.Tests.csproj",
+      "projectUniqueName": "C:\\Jimmy\\git\\VendingMachine\\VendingMachine.Tests\\VendingMachine.Tests\\VendingMachine.Tests.csproj",
       "projectName": "VendingMachine.Tests",
-      "projectPath": "C:\\Jimmy\\Luxembourg\\dennmeyer\\VM\\VendingMachine\\VendingMachine.Tests\\VendingMachine.Tests\\VendingMachine.Tests.csproj",
+      "projectPath": "C:\\Jimmy\\git\\VendingMachine\\VendingMachine.Tests\\VendingMachine.Tests\\VendingMachine.Tests.csproj",
       "packagesPath": "C:\\Users\\Jimmy Weinschutz\\.nuget\\packages\\",
-      "outputPath": "C:\\Jimmy\\Luxembourg\\dennmeyer\\VM\\VendingMachine\\VendingMachine.Tests\\VendingMachine.Tests\\obj\\",
+      "outputPath": "C:\\Jimmy\\git\\VendingMachine\\VendingMachine.Tests\\VendingMachine.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jimmy Weinschutz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6554,8 +6554,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Jimmy\\Luxembourg\\dennmeyer\\VM\\VendingMachine\\VendingMachine\\VendingMachine.csproj": {
-              "projectPath": "C:\\Jimmy\\Luxembourg\\dennmeyer\\VM\\VendingMachine\\VendingMachine\\VendingMachine.csproj"
+            "C:\\Jimmy\\git\\VendingMachine\\VendingMachine\\VendingMachine.csproj": {
+              "projectPath": "C:\\Jimmy\\git\\VendingMachine\\VendingMachine\\VendingMachine.csproj"
             }
           }
         }

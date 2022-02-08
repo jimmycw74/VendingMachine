@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Jimmy\\Luxembourg\\dennmeyer\\VM\\VendingMachine\\VendingMachine\\VendingMachine.csproj": {}
+    "C:\\Jimmy\\git\\VendingMachine\\VendingMachine\\VendingMachine.csproj": {}
   },
   "projects": {
-    "C:\\Jimmy\\Luxembourg\\dennmeyer\\VM\\VendingMachine\\VendingMachine\\VendingMachine.csproj": {
+    "C:\\Jimmy\\git\\VendingMachine\\VendingMachine\\VendingMachine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jimmy\\Luxembourg\\dennmeyer\\VM\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
+        "projectUniqueName": "C:\\Jimmy\\git\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
         "projectName": "VendingMachine",
-        "projectPath": "C:\\Jimmy\\Luxembourg\\dennmeyer\\VM\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
+        "projectPath": "C:\\Jimmy\\git\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
         "packagesPath": "C:\\Users\\Jimmy Weinschutz\\.nuget\\packages\\",
-        "outputPath": "C:\\Jimmy\\Luxembourg\\dennmeyer\\VM\\VendingMachine\\VendingMachine\\obj\\",
+        "outputPath": "C:\\Jimmy\\git\\VendingMachine\\VendingMachine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jimmy Weinschutz\\AppData\\Roaming\\NuGet\\NuGet.Config",

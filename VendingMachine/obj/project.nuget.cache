@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SGupblxDjKmuuwoUN0BUfCPvDBJ01rEa5FOOicqM/M7p1N3NqlPjX276dd8t8hhLeL+Wu69Soe3FB9g8ekvOHg==",
+  "dgSpecHash": "A9REuihdl0tfQm30WRoHOVokWLMIgPMHyLln+ii3kj9emj2eZB33LWDt7octgR3n7khDOAtFDvIVQ/53vFP/uA==",
   "success": true,
-  "projectFilePath": "C:\\Jimmy\\Luxembourg\\dennmeyer\\VM\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
+  "projectFilePath": "C:\\Jimmy\\git\\VendingMachine\\VendingMachine\\VendingMachine.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jimmy Weinschutz\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Jimmy Weinschutz\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

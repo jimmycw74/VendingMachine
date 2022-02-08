@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q7RHvQHNMTAoJeqpVfe16WuztgihV1G3oUnS/WpFT2CbHLl8pqX0XJ4+dPni6Cj3RqYQo6GmM3j0oi/cXigW3w==",
+  "dgSpecHash": "HObM70wGAh7sXYb8kIYZHO4YMC7A7wjUuz0VnOxGa7NJos9qSYxGmBWmatjQK4sSqAUPHvVmJOiIkMDne95StQ==",
   "success": true,
-  "projectFilePath": "C:\\Jimmy\\Luxembourg\\dennmeyer\\VM\\VendingMachine\\VendingMachine.Tests\\VendingMachine.Tests\\VendingMachine.Tests.csproj",
+  "projectFilePath": "C:\\Jimmy\\git\\VendingMachine\\VendingMachine.Tests\\VendingMachine.Tests\\VendingMachine.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jimmy Weinschutz\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Jimmy Weinschutz\\.nuget\\packages\\coverlet.collector\\3.1.1\\coverlet.collector.3.1.1.nupkg.sha512",
