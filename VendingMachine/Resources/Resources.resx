@@ -145,7 +145,7 @@
     <value>Language </value>
   </data>
   <data name="language_changed_to" xml:space="preserve">
-    <value>Language changed to</value>
+    <value>Language changed to </value>
   </data>
   <data name="not_supported" xml:space="preserve">
     <value> not supported</value>

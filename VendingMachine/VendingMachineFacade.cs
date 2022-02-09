@@ -76,7 +76,7 @@ namespace VendingMachine
                         result = Resources.Resources.language_changed_to + split[1];
                     }
                     else
-                        result = Resources.Resources.language + split[1] + Resources.Resources.not_supported;
+                        result = Resources.Resources.language + split[1] + Resources.Resources.not_supported + " (EN|PT)";
 
                 }
                 catch {

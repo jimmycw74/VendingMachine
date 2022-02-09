@@ -142,7 +142,7 @@ namespace VendingMachine.Resources {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Language changed to.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Language changed to .
         /// </summary>
         public static string language_changed_to {
             get {
