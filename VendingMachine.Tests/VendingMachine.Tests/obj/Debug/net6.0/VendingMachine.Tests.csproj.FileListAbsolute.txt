@@ -103,10 +103,6 @@ C:\Jimmy\Luxembourg\dennmeyer\VM\VendingMachine\VendingMachine.Tests\VendingMach
 C:\Jimmy\Luxembourg\dennmeyer\VM\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\obj\Debug\net6.0\VendingMachine.Tests.pdb
 C:\Jimmy\Luxembourg\dennmeyer\VM\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\obj\Debug\net6.0\VendingMachine.Tests.genruntimeconfig.cache
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
-C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\obj\Debug\net6.0\VendingMachine.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\obj\Debug\net6.0\VendingMachine.Tests.AssemblyInfoInputs.cache
-C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\obj\Debug\net6.0\VendingMachine.Tests.AssemblyInfo.cs
-C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\obj\Debug\net6.0\VendingMachine.Tests.csproj.CoreCompileInputs.cache
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\testhost.exe
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\testhost.dll
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -201,10 +197,14 @@ C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\VendingMachine.dll
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\VendingMachine.pdb
+C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\pt\VendingMachine.resources.dll
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\obj\Debug\net6.0\VendingMachine.Tests.csproj.AssemblyReference.cache
+C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\obj\Debug\net6.0\VendingMachine.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\obj\Debug\net6.0\VendingMachine.Tests.AssemblyInfoInputs.cache
+C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\obj\Debug\net6.0\VendingMachine.Tests.AssemblyInfo.cs
+C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\obj\Debug\net6.0\VendingMachine.Tests.csproj.CoreCompileInputs.cache
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\obj\Debug\net6.0\VendingMachine.Tests.csproj.CopyComplete
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\obj\Debug\net6.0\VendingMachine.Tests.dll
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\obj\Debug\net6.0\ref\VendingMachine.Tests.dll
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\obj\Debug\net6.0\VendingMachine.Tests.pdb
 C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\obj\Debug\net6.0\VendingMachine.Tests.genruntimeconfig.cache
-C:\Jimmy\git\VendingMachine\VendingMachine.Tests\VendingMachine.Tests\bin\Debug\net6.0\pt\VendingMachine.resources.dll

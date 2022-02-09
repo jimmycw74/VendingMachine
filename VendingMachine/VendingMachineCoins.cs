@@ -2,6 +2,7 @@
 {
     internal class VendingMachineCoins : IVendingMachineCoins
     {
+        //all euro coins that are accepted
         internal static readonly float[] validCoins =  {
             0.05f ,
             0.10f ,
@@ -15,6 +16,7 @@
             return validCoins;
         }
 
+        //due any "coin" check if is a valid coin
         public bool ValidateCoin(float i)
         {
             Boolean notValid = true;

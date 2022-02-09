@@ -11,6 +11,7 @@ namespace VendingMachine
 
         private bool ProductSelected { get; set; } = false;
 
+        //convert a line from the csv file to this object
         public static VendingMachineProduct ConvertFromCSVLine(string line)
         {
             string[] values = line.Split(',');
@@ -25,9 +26,6 @@ namespace VendingMachine
             };
             return product;
         }
-        public void setSelected(bool v)
-        {
-            this.ProductSelected = v;
-        }
+
     }
 }
