@@ -66,7 +66,7 @@ namespace VendingMachine.Tests
             // Act
             _operation.processCommand("ENTER 1");
             // Assert
-            Assert.Equal("Returned money: 1", _operation.processCommand("RETURN COINS"));
+            Assert.Equal("Returned money:1", _operation.processCommand("RETURN COINS"));
         }
         [Fact]
         public void shouldReturnTotalAmount()
@@ -76,7 +76,7 @@ namespace VendingMachine.Tests
             _operation.processCommand("ENTER 1");
             _operation.processCommand("ENTER 1");
             // Assert
-            Assert.Equal("Returned money: 3", _operation.processCommand("RETURN COINS"));
+            Assert.Equal("Returned money:3", _operation.processCommand("RETURN COINS"));
         }
         [Fact]
         public void shouldRejectSoldOutProducts()
