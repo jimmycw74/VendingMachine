@@ -14,6 +14,8 @@ namespace VendingMachine.Tests
             _operation = new VendingMachineFacade();
         }
 
+
+        //Accept Coins
         [Fact]
         public void shouldRejectInvalidCoins()
         {
@@ -26,6 +28,8 @@ namespace VendingMachine.Tests
             // Assert
             Assert.Equal(totalReject, invalidCoins.Length);
         }
+
+        //Accept Coins
         [Fact]
         public void shouldAddCoinsToAmount()
         {
@@ -39,12 +43,16 @@ namespace VendingMachine.Tests
             // Assert
             Assert.Equal(totalAdded, _operation.getBalance());
         }
+
+        //Select Product
         [Fact]
         public void shouldRejectInvalidProducts()
         {
             // Assert
             Assert.Equal("**product invalid**", _operation.processCommand("SELECT 999"));
         }
+
+        //Select Product
         [Fact]
         public void shouldRejectPurchaseWithNotEnoughMoney()
         {
@@ -52,6 +60,8 @@ namespace VendingMachine.Tests
             // Assert
             Assert.StartsWith("PRICE", _operation.processCommand("SELECT 1"));
         }
+
+        //Select Product
         [Fact]
         public void shouldDispenseProduct()
         {
@@ -60,6 +70,8 @@ namespace VendingMachine.Tests
             // Assert
             Assert.EndsWith("THANK YOU", _operation.processCommand("SELECT 1"));
         }
+
+        //Make Change
         [Fact]
         public void shouldReturnChange()
         {
@@ -68,6 +80,8 @@ namespace VendingMachine.Tests
             // Assert
             Assert.Equal("Returned money:1", _operation.processCommand("RETURN COINS"));
         }
+
+        //Return Coins
         [Fact]
         public void shouldReturnTotalAmount()
         {
@@ -78,6 +92,8 @@ namespace VendingMachine.Tests
             // Assert
             Assert.Equal("Returned money:3", _operation.processCommand("RETURN COINS"));
         }
+
+        //Sold Out
         [Fact]
         public void shouldRejectSoldOutProducts()
         {

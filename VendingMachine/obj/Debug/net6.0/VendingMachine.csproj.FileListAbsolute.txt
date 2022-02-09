@@ -14,7 +14,6 @@ C:\Jimmy\git\VendingMachine\VendingMachine\bin\Debug\net6.0\VendingMachine.dll
 C:\Jimmy\git\VendingMachine\VendingMachine\bin\Debug\net6.0\ref\VendingMachine.dll
 C:\Jimmy\git\VendingMachine\VendingMachine\bin\Debug\net6.0\VendingMachine.pdb
 C:\Jimmy\git\VendingMachine\VendingMachine\bin\Debug\net6.0\pt\VendingMachine.resources.dll
-C:\Jimmy\git\VendingMachine\VendingMachine\obj\Debug\net6.0\VendingMachine.csproj.AssemblyReference.cache
 C:\Jimmy\git\VendingMachine\VendingMachine\obj\Debug\net6.0\VendingMachine.Resources.Resources.resources
 C:\Jimmy\git\VendingMachine\VendingMachine\obj\Debug\net6.0\VendingMachine.Resources.Resources.pt.resources
 C:\Jimmy\git\VendingMachine\VendingMachine\obj\Debug\net6.0\VendingMachine.csproj.GenerateResource.cache
@@ -26,3 +25,4 @@ C:\Jimmy\git\VendingMachine\VendingMachine\obj\Debug\net6.0\pt\VendingMachine.re
 C:\Jimmy\git\VendingMachine\VendingMachine\obj\Debug\net6.0\VendingMachine.dll
 C:\Jimmy\git\VendingMachine\VendingMachine\obj\Debug\net6.0\ref\VendingMachine.dll
 C:\Jimmy\git\VendingMachine\VendingMachine\obj\Debug\net6.0\VendingMachine.pdb
+C:\Jimmy\git\VendingMachine\VendingMachine\obj\Debug\net6.0\VendingMachine.csproj.AssemblyReference.cache

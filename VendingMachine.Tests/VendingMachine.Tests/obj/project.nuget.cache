@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HObM70wGAh7sXYb8kIYZHO4YMC7A7wjUuz0VnOxGa7NJos9qSYxGmBWmatjQK4sSqAUPHvVmJOiIkMDne95StQ==",
+  "dgSpecHash": "e4L9MdeMTcIqpKEAeGD5H+sqrT6WU7GTCcTS+974IMXgpooH1Trnmfwen12iTXI+nPvXPWgEhwMymXb6sTJ3MA==",
   "success": true,
   "projectFilePath": "C:\\Jimmy\\git\\VendingMachine\\VendingMachine.Tests\\VendingMachine.Tests\\VendingMachine.Tests.csproj",
   "expectedPackageFiles": [
