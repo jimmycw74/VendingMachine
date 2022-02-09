@@ -50,7 +50,7 @@ namespace VendingMachine.Tests
         {
             // Act
             // Assert
-            Assert.StartsWith("Please deposit more", _operation.processCommand("SELECT 1"));
+            Assert.StartsWith("PRICE", _operation.processCommand("SELECT 1"));
         }
         [Fact]
         public void shouldDispenseProduct()

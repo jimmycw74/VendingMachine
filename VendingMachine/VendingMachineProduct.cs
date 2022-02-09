@@ -25,7 +25,7 @@ namespace VendingMachine
             };
             return product;
         }
-        internal void setSelected(bool v)
+        public void setSelected(bool v)
         {
             this.ProductSelected = v;
         }

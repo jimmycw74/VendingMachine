@@ -12,6 +12,11 @@
         },
         "runtime": {
           "VendingMachine.dll": {}
+        },
+        "resources": {
+          "pt/VendingMachine.resources.dll": {
+            "locale": "pt"
+          }
         }
       },
       "Castle.Core/4.4.0": {

@@ -20,8 +20,8 @@ namespace VendingMachine
                    .Skip(1)
                    .Select(v => VendingMachineProduct.ConvertFromCSVLine(v))
                    .ToList();
+            Resources.Resources.Culture = new CultureInfo("en-US");
         }
-
         public float[] validCoinsList()
         {
             return _coins.ValidCoinsList();
@@ -42,14 +42,33 @@ namespace VendingMachine
                     if (_coins.ValidateCoin(coin))
                     {
                         _wallet.AddCoin(coin);
-                        result = "Amount entered: " + _wallet.GetBalance().ToString("0.00");
+                        result = Resources.Resources.amount_entered + _wallet.GetBalance().ToString("0.00");
                     }
-                    else result = "** invalid coin **";
+                    else result = Resources.Resources.invalid_coin;
                 }
                 catch (Exception)
                 {
-                    Console.WriteLine("** error **");
+                    Console.WriteLine(Resources.Resources.error);
                 }
+            }
+            else if (c.StartsWith("LANGUAGE"))
+            {
+                try
+                {
+                    string[] split = c.Split(" ");
+                    if (split[1].ToUpper().Equals("PT") || split[1].ToUpper().Equals("EN"))
+                    {
+                        Resources.Resources.Culture = new CultureInfo(split[1]);
+                        result = Resources.Resources.language_changed_to + split[1];
+                    }
+                    else
+                        result = Resources.Resources.language + split[1] + Resources.Resources.not_supported;
+
+                }
+                catch {
+                    result = Resources.Resources.error_language;
+                }
+
             }
             else if (c.StartsWith("SELECT"))
             {
@@ -69,7 +88,7 @@ namespace VendingMachine
                     //check if has enough money
                     if (product == null)
                     {
-                        result = "**product invalid**";
+                        result = Resources.Resources.error_product_invalid;
                     }
                     else
                     {
@@ -77,16 +96,16 @@ namespace VendingMachine
                         {
                             if (_wallet.GetBalance() >= product.ProductPrice)
                             {
-                                result = "**product dispensed**\n";
+                                result = Resources.Resources.product_dispensed;
                                 product.ProductStock -= 1;
                                 _wallet.removeAmount(product.ProductPrice);
                                 result += _wallet.dispenseChange() + '\n';
-                                result += "THANK YOU";
+                                result += Resources.Resources.thank_you;
 
                             }
                             else
                             {
-                                result = "Please deposit more " + (product.ProductPrice - _wallet.GetBalance()).ToString("0.00");
+                                result = Resources.Resources.price + product.ProductPrice + "\n" + Resources.Resources.please_deposit_more + (product.ProductPrice - _wallet.GetBalance()).ToString("0.00");
                             }
                         }
                         else
@@ -94,26 +113,26 @@ namespace VendingMachine
                             result = "**product sold out**\n";
                             if (_wallet.GetBalance() >= 0)
                             {
-                                result += "Amount entered: " + _wallet.GetBalance().ToString("0.00");
+                                result += Resources.Resources.amount_entered + " " + _wallet.GetBalance().ToString("0.00");
                             }
                         }
                     }
                 }
                 catch (Exception)
                 {
-                    Console.WriteLine("** error **");
+                    Console.WriteLine(Resources.Resources.error);
                 }
             }
             else if (c.Equals("SHOW"))
             {
                 foreach (VendingMachineProduct p in products)
                 {
-                    Console.WriteLine(p.ProductId + " " + p.ProductName + " " + p.ProductPrice + " - " + (p.ProductStock < 1 ? "SOLD OUT" : p.ProductStock + " Items Left"));
+                    Console.WriteLine(p.ProductId + " " + p.ProductName + " " + p.ProductPrice + " - " + (p.ProductStock < 1 ? Resources.Resources.sold_out : p.ProductStock + Resources.Resources.item_left));
                 }
             }
             else if (c.Equals("RETURN COINS"))
             {
-                result = "Returned money: " + _wallet.GetBalance();
+                result = Resources.Resources.returned_money + _wallet.GetBalance();
                 _wallet.removeAmount(_wallet.GetBalance());
             }
             else if (c.Equals("QUIT"))
@@ -138,7 +157,7 @@ namespace VendingMachine
             if (_coins.ValidateCoin(coin))
                 _wallet.AddCoin(coin);
             else
-                Console.WriteLine("COIN REJECTED");
+                Console.WriteLine(Resources.Resources.coin_rejected);
         }
 
         public float getBalance() { return _wallet.GetBalance(); }
@@ -151,6 +170,10 @@ namespace VendingMachine
                 if (product.ProductId == ProductId)
                     product.setSelected(true); ;
 
+        }
+        public string getInitialDisplay()
+        {
+            return Resources.Resources.insert_coin;
         }
 
     }

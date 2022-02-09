@@ -809,6 +809,11 @@
         },
         "runtime": {
           "VendingMachine.dll": {}
+        },
+        "resources": {
+          "pt/VendingMachine.resources.dll": {
+            "locale": "pt"
+          }
         }
       }
     }

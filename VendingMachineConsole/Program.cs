@@ -9,8 +9,10 @@ namespace VendingMachineConsole
             Console.WriteLine("VendingMachine Console Interface - WELCOME");
 
             VendingMachineFacade vm = new();
+
             string command = "";
 
+            Console.WriteLine("INSERT COIN");
             while (!command.Equals("QUIT"))
             {
                 Console.Write("> ");
