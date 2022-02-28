@@ -54,7 +54,7 @@ namespace VendingMachine
                     if (_coins.ValidateCoin(coin))
                     {
                         _wallet.AddCoin(coin);
-                        result = Resources.Resources.amount_entered + _wallet.GetBalance().ToString("0.00");
+                        result = Resources.Resources.amount_entered + _wallet.GetBalance().ToString("C2");
                     }
                     else result = Resources.Resources.invalid_coin;
                 }
@@ -129,7 +129,7 @@ namespace VendingMachine
                             result = "**product sold out**\n";
                             if (_wallet.GetBalance() >= 0)
                             {
-                                result += Resources.Resources.amount_entered + " " + _wallet.GetBalance().ToString("0.00");
+                                result += Resources.Resources.amount_entered + " " + _wallet.GetBalance().ToString("C2");
                             }
                         }
                     }

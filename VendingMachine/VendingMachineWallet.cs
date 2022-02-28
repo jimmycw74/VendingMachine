@@ -22,7 +22,7 @@
             string result = "";
             if (_amount > 0)
             {
-                result = "**change of " + _amount.ToString("0.00") + " **";
+                result = "**change of " + _amount.ToString("C2") + " **";
                 _amount = 0;
             }
             return result;
